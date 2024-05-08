@@ -1,4 +1,5 @@
-from kafka import KafkaConsumer
+# This file is not being used currently, it's purpose is to give a brief idea of how this would be handled in the
+# real-world production scenario
 from pyspark.sql import SparkSession
 from pyspark.sql.connect.functions import from_json
 from pyspark.sql.functions import col
